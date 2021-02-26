@@ -39,6 +39,9 @@ module "azurerm_network_security_rule" {
   source                      = "robertdebock/azurerm_network_security_group/azurerm"
   version                     = "2.0.0"
   name                        = "test_network_security_rule"
+  # TODO: When `network_security_group_name` is set:
+  # Error: Unsupported argument
+  # An argument named "network_security_group_name" is not expected here.
   # network_security_group_name = module.azurerm_network_security_group.name
   resource_group_name         = module.azurerm_resource_group.name
 }
