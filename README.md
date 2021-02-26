@@ -1,3 +1,3 @@
-# Terraform azurerm_network_security_rule module.
+# Terraform azurerm_network_interface module.
 
-A Terraform module to create an azurerm_network_security_rule on Azure.
+A Terraform module to create an azurerm_network_interface on Azure.
