@@ -5,6 +5,7 @@ variable "name" {
 
 variable "location" {
   description = "(Optional) A string for the location of the resource group."
+  type        = string
   default     = "west europe"
 }
 
